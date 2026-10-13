@@ -1,0 +1,6 @@
+# Unleashed-Pi runtime artifacts
+__pycache__/
+*.pyc
+.pytest_cache/
+signals/
+*.log

@@ -1,0 +1,2 @@
+# keep LF line endings so scripts run on the Pi as-is
+* text=auto eol=lf
