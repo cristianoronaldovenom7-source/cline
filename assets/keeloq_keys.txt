@@ -1,0 +1,17 @@
+# Unleashed-Pi KeeLoq manufacturer key store
+#
+# Format:  ManufacturerName:64-bit-hex-key:learning-type
+# Learning types: simple | normal | secure
+#   simple — hop key == manufacturer key (most alarms, most PSA-era cars)
+#   normal — key derived from the remote's serial number
+#   secure — key derived from serial + the transmitted Seed (HCS "secure learn")
+#
+# Community "mfkey" files from the Private Unleashed / Flipper world are
+# drop-in compatible: paste the lines below.
+
+# verified demo key used by the shipped SAMPLE_KeeLoq.sub + the self-test
+Unleashed-Pi Demo:1122334455667788:simple
+
+# add your own (examples — replace with real 64-bit keys):
+# BFT:0011223344556677:secure
+# MyAlarmBrand:0011223344556677:normal
